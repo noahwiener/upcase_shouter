@@ -4,6 +4,4 @@ class ShoutsController < ApplicationController
     @shout = Shout.find(params[:id])
   end
 
-
-
 end
