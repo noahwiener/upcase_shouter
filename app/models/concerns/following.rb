@@ -26,4 +26,8 @@ module Following
   def unfollow user
     followed_users.delete(user)
   end
+
+  def can_follow? user
+    self != user
+  end
 end
